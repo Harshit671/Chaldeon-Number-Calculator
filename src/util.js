@@ -35,7 +35,9 @@ export const getChar = (data) => {
         }
     }
     console.log("getVowelNum", getVowelNum);
+
     var getConsNum=getCompoundNum-getVowelNum;
+    
     console.log("getConsNum", getConsNum);
     var getCompoundNum1=getCompoundNum;
     if (getCompoundNum1 === 11 || getCompoundNum1 === 22 || getCompoundNum1 === 33) {

@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display: none;
-}
+} */
 .app{
   width:100vw;
   height:100vh;
@@ -70,4 +70,17 @@
   padding:7px;
 
 }
+
+@media screen and (max-width:513px)
+{
+  .btn_div{
+    display:flex;
+    flex-direction:column;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+}
+  
+
  
